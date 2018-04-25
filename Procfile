@@ -1,1 +1,1 @@
-worker: node ./src/index.js
+worker: pm2 start ./src/index.js
